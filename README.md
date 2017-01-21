@@ -6,16 +6,6 @@ This is a new particle trajectory reconstruction approach, using Voronoi diagram
 
 Code is designed for the LHCb, but can easily be extended for solving similar problems.
 
-## Installation
-Code is written on C++ and can be compiled with:
-```shell
-$ cgal_create_CMakeLists -c Core -s input.cpp
-  cmake .
-  make
-```
-
-The plots are written in python and run on Python >= 2.7.0
-
 ## Authors
 
 Leonardo Teixeira Menezes <br />
